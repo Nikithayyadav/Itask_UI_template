@@ -1,0 +1,484 @@
+.owner-project-ui {
+  font-family: 'DM Sans', Arial, sans-serif;
+}
+
+.owner-project-ui .panel-heading h2 {
+  color: #1d3552;
+  font-size: 17px;
+}
+
+.owner-project-ui .panel-heading p {
+  color: #718198;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.owner-project-ui .project-filter-toolbar {
+  margin-bottom: 14px;
+}
+
+.owner-project-ui .project-filter-toggle {
+  min-height: 38px;
+  padding-inline: 14px;
+  font-size: 12px;
+}
+
+.owner-project-ui .project-criteria {
+  padding: 18px;
+}
+
+.owner-project-ui .project-criteria-heading h3 {
+  font-size: 15px;
+}
+
+.owner-project-ui .project-criteria-heading p,
+.owner-project-ui .project-lookup-pending {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.owner-project-ui .project-basic-filters,
+.owner-project-ui .project-criteria-grid {
+  gap: 12px;
+}
+
+.owner-project-ui .project-basic-filters > label,
+.owner-project-ui .project-criteria-grid > label,
+.owner-project-ui .project-date-range-fields > label,
+.owner-project-ui .project-multiselect {
+  gap: 6px;
+  color: #40546d;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.owner-project-ui .project-basic-filters input,
+.owner-project-ui .project-criteria-grid input,
+.owner-project-ui .project-criteria-grid select,
+.owner-project-ui .project-date-range-fields input,
+.owner-project-ui .project-multiselect-trigger {
+  min-height: 38px;
+  padding: 7px 10px;
+  color: #30455f;
+  font-size: 12px;
+}
+
+.owner-project-ui .project-multiselect-chip,
+.owner-project-ui .project-multiselect-option,
+.owner-project-ui .project-multiselect-search,
+.owner-project-ui .project-multiselect-no-results,
+.owner-project-ui .project-advanced-toggle,
+.owner-project-ui .project-criteria-actions .secondary-btn,
+.owner-project-ui .project-criteria-actions .primary-btn {
+  font-size: 12px;
+}
+
+.owner-project-ui .project-advanced-toggle > small {
+  font-size: 11px;
+}
+
+.owner-project-ui .project-summary {
+  gap: 9px 16px;
+  padding: 12px 15px;
+  color: #5f7188;
+  font-size: 12px;
+}
+
+.owner-project-ui .project-summary b,
+.owner-project-ui .project-summary-total b {
+  color: #263d58;
+  font-size: 13px;
+}
+
+.owner-project-ui .project-sort-help {
+  color: #718198;
+  font-size: 11px;
+}
+
+.owner-project-ui .table-scroll table {
+  width: 100%;
+  min-width: 1180px;
+  border-collapse: collapse;
+}
+
+.owner-project-ui .table-scroll th {
+  padding: 12px 11px;
+  background: #f7f9fc;
+  color: #52657d;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.owner-project-ui .table-scroll td {
+  padding: 13px 11px;
+  color: #3e526a;
+  font-size: 12px;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+
+.owner-project-ui .table-scroll tbody tr:hover {
+  background: #f7faff;
+}
+
+.owner-project-ui .table-sort-button {
+  font-size: inherit;
+}
+
+.owner-project-ui .project-name-link,
+.owner-project-ui .project-progress > small {
+  font-size: 12px;
+}
+
+.owner-project-ui .project-data-badge {
+  padding: 4px 8px;
+  font-size: 10px;
+}
+
+.owner-project-ui .table-pagination {
+  min-height: 50px;
+  color: #5f7188;
+  font-size: 11px;
+}
+
+.owner-project-ui .table-pagination button.current-page {
+  font-size: 11px;
+}
+
+.owner-project-ui .server-page-size {
+  color: #5f7188;
+  font-size: 11px;
+}
+
+.owner-project-ui .server-page-size select {
+  min-height: 32px;
+  font-size: 12px;
+}
+
+.owner-project-ui.create-project-page {
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.owner-project-ui .create-project-section {
+  padding: 22px 24px;
+}
+
+.owner-project-ui .create-section-heading {
+  margin-bottom: 20px;
+}
+
+.owner-project-ui .create-section-heading h2 {
+  color: #1d3552;
+  font-size: 20px;
+}
+
+.owner-project-ui .create-section-heading p {
+  margin-top: 5px;
+  color: #718198;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.owner-project-ui .section-step {
+  font-size: 11px;
+  letter-spacing: 0.8px;
+}
+
+.owner-project-ui .section-count {
+  font-size: 12px;
+}
+
+.owner-project-ui .create-project-fields {
+  gap: 16px 18px;
+}
+
+.owner-project-ui .create-project-fields .field-label,
+.owner-project-ui .project-update-identity .field-label {
+  gap: 7px;
+  color: #40546d;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.owner-project-ui .create-project-fields .field-label input,
+.owner-project-ui .create-project-fields .field-label select,
+.owner-project-ui .create-project-fields .field-label textarea,
+.owner-project-ui .project-update-identity .field-label input,
+.owner-project-ui .project-update-reason input {
+  min-height: 42px;
+  padding: 9px 11px;
+  border-color: #d7e1ec;
+  color: #30455f;
+  font-size: 13px;
+}
+
+.owner-project-ui .create-project-fields .field-label textarea {
+  min-height: 96px;
+}
+
+.owner-project-ui .project-update-identity {
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.owner-project-ui .project-update-identity input[readonly] {
+  border-color: #e2e8ef;
+  background: #f5f7fa;
+  color: #63748a;
+  font-weight: 500;
+}
+
+.owner-project-ui .project-update-reason {
+  margin-top: 16px;
+}
+
+.owner-project-ui .project-guidance {
+  margin-top: 18px;
+}
+
+.owner-project-ui .project-guidance b,
+.owner-project-ui .project-guidance small,
+.owner-project-ui .project-lookup-pending {
+  font-size: 12px;
+}
+
+.owner-project-ui .project-guidance small {
+  line-height: 1.55;
+}
+
+.owner-project-ui .create-project-actions {
+  margin-top: 18px;
+  padding-top: 16px;
+}
+
+.owner-project-ui .create-project-actions > span,
+.owner-project-ui .create-project-actions .secondary-btn,
+.owner-project-ui .create-project-actions .primary-btn {
+  font-size: 12px;
+}
+
+.owner-project-ui.project-details-page {
+  gap: 16px;
+}
+
+.owner-project-ui .project-details-banner {
+  padding: 22px 24px 20px;
+}
+
+.owner-project-ui .project-details-banner-top {
+  margin-bottom: 17px;
+}
+
+.owner-project-ui .project-details-title h2 {
+  font-size: clamp(24px, 2.2vw, 29px);
+}
+
+.owner-project-ui .project-details-type,
+.owner-project-ui .project-details-identifiers {
+  font-size: 12px;
+}
+
+.owner-project-ui .project-details-title > p {
+  color: #53677f;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.owner-project-ui .project-summary-cards {
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.owner-project-ui .project-summary-card {
+  min-height: 94px;
+  padding: 13px 15px;
+}
+
+.owner-project-ui .project-summary-card > span {
+  color: #596d84;
+  font-size: 12px;
+}
+
+.owner-project-ui .project-summary-card > b {
+  font-size: 24px;
+}
+
+.owner-project-ui .project-summary-card > small {
+  color: #718198;
+  font-size: 11px;
+}
+
+.owner-project-ui .project-details-tabs {
+  min-height: 48px;
+  padding-inline: 14px;
+  gap: 5px;
+}
+
+.owner-project-ui .project-details-tabs > button {
+  padding-inline: 15px;
+  font-size: 12px;
+}
+
+.owner-project-ui .project-details-tabs > button > span {
+  font-size: 10px;
+}
+
+.owner-project-ui .project-overview-grid {
+  gap: 16px;
+}
+
+.owner-project-ui .project-detail-card {
+  padding: 20px;
+}
+
+.owner-project-ui .project-detail-card-heading {
+  margin-bottom: 16px;
+}
+
+.owner-project-ui .project-detail-card-heading h3,
+.owner-project-ui .project-section-intro h3 {
+  font-size: 16px;
+}
+
+.owner-project-ui .project-detail-card-heading p,
+.owner-project-ui .project-section-intro p {
+  color: #718198;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.owner-project-ui .project-info-grid {
+  gap: 18px 16px;
+}
+
+.owner-project-ui .project-info-grid > div {
+  gap: 6px;
+}
+
+.owner-project-ui .project-info-grid small {
+  color: #6e7f93;
+  font-size: 11px;
+}
+
+.owner-project-ui .project-info-grid b {
+  color: #30455f;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.owner-project-ui .project-description-card > p,
+.owner-project-ui .project-team-card p,
+.owner-project-ui .project-milestone-content p,
+.owner-project-ui .project-activity-item p {
+  color: #53677f;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.owner-project-ui .project-description-progress > div:first-child {
+  font-size: 12px;
+}
+
+.owner-project-ui .project-description-progress > small,
+.owner-project-ui .project-activity-item small,
+.owner-project-ui .project-milestone-content small {
+  color: #718198;
+  font-size: 11px;
+}
+
+.owner-project-ui .project-task-search input,
+.owner-project-ui .project-task-status,
+.owner-project-ui .project-task-status select {
+  font-size: 12px;
+}
+
+.owner-project-ui .project-detail-table th {
+  padding: 11px 12px;
+  color: #52657d;
+  font-size: 11px;
+}
+
+.owner-project-ui .project-detail-table td {
+  padding: 13px 12px;
+  color: #3e526a;
+  font-size: 12px;
+}
+
+.owner-project-ui .project-task-name > b,
+.owner-project-ui .project-task-assignee,
+.owner-project-ui .project-task-priority,
+.owner-project-ui .project-team-card h4,
+.owner-project-ui .project-milestone-content h4,
+.owner-project-ui .project-document-name > b {
+  color: #30455f;
+  font-size: 12px;
+}
+
+.owner-project-ui .project-task-name > small,
+.owner-project-ui .project-task-pagination,
+.owner-project-ui .project-task-pagination b,
+.owner-project-ui .project-section-intro > span,
+.owner-project-ui .project-detail-empty,
+.owner-project-ui .project-detail-empty > b,
+.owner-project-ui .project-document-name > small,
+.owner-project-ui .project-document-uploader,
+.owner-project-ui .project-document-date {
+  font-size: 11px;
+}
+
+.owner-project-ui .project-detail-badge {
+  font-size: 10px;
+}
+
+.owner-project-ui .project-team-role {
+  font-size: 11px;
+}
+
+.owner-project-ui .project-document-row {
+  min-height: 66px;
+}
+
+.owner-project-ui .project-document-action,
+.owner-project-ui .project-upload-notice,
+.owner-project-ui .project-upload-feedback {
+  font-size: 12px;
+}
+
+@media (max-width: 820px) {
+  .owner-project-ui .project-overview-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .owner-project-ui .project-criteria {
+    padding: 14px;
+  }
+
+  .owner-project-ui .create-project-section,
+  .owner-project-ui .project-detail-card {
+    padding: 16px;
+  }
+
+  .owner-project-ui .project-details-banner {
+    padding: 17px;
+  }
+
+  .owner-project-ui .project-summary-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .owner-project-ui .project-details-tabs {
+    padding-inline: 7px;
+  }
+
+  .owner-project-ui .project-details-tabs > button {
+    padding-inline: 11px;
+  }
+
+  .owner-project-ui .project-info-grid {
+    grid-template-columns: 1fr;
+  }
+}

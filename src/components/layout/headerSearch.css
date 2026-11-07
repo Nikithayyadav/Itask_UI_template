@@ -1,0 +1,115 @@
+.global-search-area {
+  position: relative;
+  flex: 0 1 260px;
+  width: min(260px, 24vw);
+  min-width: 130px;
+}
+
+.global-search-area .global-search {
+  width: 100%;
+}
+
+.global-search-dropdown {
+  position: absolute;
+  top: calc(100% + 9px);
+  right: 0;
+  z-index: 20;
+  width: min(390px, calc(100vw - 32px));
+  max-height: min(440px, calc(100dvh - 100px));
+  overflow-y: auto;
+  padding: 6px;
+  border: 1px solid #dfe7f0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 14px 32px rgba(20, 45, 74, .2);
+  color: #263d58;
+}
+
+.global-search-result {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 52px;
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 7px;
+  background: #fff;
+  color: inherit;
+  text-align: left;
+}
+
+.global-search-result:hover,
+.global-search-result.is-active {
+  background: #f1f7fd;
+}
+
+.global-search-result-icon {
+  display: grid;
+  flex: 0 0 30px;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border-radius: 7px;
+  background: #eaf3fc;
+  color: #075bb4;
+  font-size: 15px;
+}
+
+.global-search-result-copy {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.global-search-result-copy b {
+  overflow: hidden;
+  color: #263d58;
+  font-size: 12px;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.global-search-result-copy small,
+.global-search-result-kind {
+  color: #718198;
+  font-size: 10px;
+}
+
+.global-search-result-kind {
+  flex: 0 0 auto;
+  padding: 3px 6px;
+  border-radius: 5px;
+  background: #f2f5f8;
+}
+
+.global-search-state {
+  padding: 13px 11px;
+  color: #63758c;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@media (max-width: 560px) {
+  .global-search-area {
+    width: min(210px, 42vw);
+    min-width: 0;
+    flex-basis: 210px;
+  }
+
+  .global-search-area .global-search {
+    min-width: 0;
+  }
+
+  .global-search-area .global-search kbd {
+    display: none;
+  }
+
+  .global-search-dropdown {
+    right: -52px;
+    width: min(360px, calc(100vw - 24px));
+  }
+}

@@ -1,0 +1,47 @@
+.page-heading.module-page-heading,
+.page-heading.transaction-page-heading {
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.page-heading.module-page-heading h1,
+.page-heading.transaction-page-heading h1 {
+  margin-top: 0;
+}
+
+.page-heading.module-page-heading p {
+  margin-top: 4px;
+}
+
+.sidebar .brand {
+  gap: 9px;
+  padding-inline: 14px;
+}
+
+.sidebar .brand .sidebar-module-heading {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border-bottom: 0;
+}
+
+.sidebar .brand .sidebar-module-heading > button {
+  min-width: 0;
+  overflow: hidden;
+  color: #354c67;
+  font-size: 13px;
+  font-weight: 650;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sidebar-module-heading > button:hover {
+  color: #075bb4;
+}
+
+.sidebar-module-code {
+  flex: 0 0 auto;
+}
