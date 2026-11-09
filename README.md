@@ -1,5 +1,5 @@
 # iTASK frontend
-
+ 
 Responsive iTASK workspace prototype built with React, TypeScript, and Vite. The screens follow the supplied BIZTAB UX deck, role JSON, and feature matrix. The app is frontend-only and uses isolated in-memory mock data; no real API routes are assumed.
 
 ## Run locally
