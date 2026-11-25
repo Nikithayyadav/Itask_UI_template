@@ -6,7 +6,7 @@ Responsive iTASK workspace prototype built with React, TypeScript, and Vite. The
   
 Requirements: Node.js 20.11+ or 22+ and npm.   
 
-```bash
+```bash 
 npm install
 npm run dev
 ```
